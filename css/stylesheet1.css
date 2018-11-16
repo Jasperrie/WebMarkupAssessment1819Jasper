@@ -1,0 +1,737 @@
+body { /*Zet alles centraal*/
+	position: center; 
+	text-align: center;
+}
+
+img { /*Zorgt voor schaling van afbeeldingen*/
+	max-width: 100%;
+    height: auto;
+}
+
+#video-background { /*Zet achtergrondvideo centraal*/
+  position: fixed;
+  right: -1300; 
+  bottom: -700;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -10;
+}
+
+#p1 { /*Zorgt voor afbeelding logo bedrijf*/
+	position: absolute;
+	left: 26.55%;
+	top: 0px;
+}
+
+ul.PCList { /*zorgt voor menu grootte, kleur etc.*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+	position: absolute;
+	left: 26.55%;
+	top: 158;
+	min-width: 47%;
+}
+
+li.PCList { /*zorgt voor knop in menu*/
+    display:inline;
+	position: center;
+}
+
+li.PCList a { /*Zorgt voor knop en tekst in menu voor kleur, grootte, lettertype etc.*/
+    display:inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: arial, serif;
+	position: center;
+}
+
+li.PCList a:hover { /*Zorgt voor kleurverandering wanneer de muis over de knop heet gaat*/
+    background-color: #111111;
+}
+
+/*--------------------------------------------------------------------*/
+
+ul.TabletList { /*zorgt voor menu grootte, kleur etc.*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+	position: absolute;
+	left: 0%;
+	top: 158;
+	min-width: 100%;
+}
+
+li.TabletList { /*zorgt voor knop in menu*/
+    display:inline;
+	position: center;
+}
+
+li.TabletList a { /*Zorgt voor knop en tekst in menu voor kleur, grootte, lettertype etc.*/
+    display:inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: arial, serif;
+	position: center;
+}
+
+li.TabletList a:hover { /*Zorgt voor kleurverandering wanneer de muis over de knop heet gaat*/
+    background-color: #111111;
+}
+
+/*-------------------------------------------------------------------*/
+
+ul.PhoneList { /*zorgt voor menu grootte, kleur etc.*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+	position: absolute;
+	left: 0%;
+	top: 120;
+	min-width: 100%;
+}
+
+li.PhoneList { /*zorgt voor knop in menu*/
+    display:inline;
+	position: center;
+}
+
+li.PhoneList a { /*Zorgt voor knop en tekst in menu voor kleur, grootte, lettertype etc.*/
+    display:inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: arial, serif;
+	position: center;
+}
+
+li.PhoneList a:hover { /*Zorgt voor kleurverandering wanneer de muis over de knop heet gaat*/
+    background-color: #111111;
+}
+
+@media screen and (max-width: 700px) {
+	ul.PCList {
+	display: none;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	ul.TabletList {
+	display: none;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	ul.TabletList {
+	display: visible;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	ul.TabletList {
+	display: none;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	ul.PhoneList {
+	display: visible;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	ul.PhoneList {
+	display: none;
+	}
+}
+
+#p2 { /*Zorgt voor tekststukjes met kleur, lettertype en -grootte etc.*/
+	background-color: #2699FB;
+	font-family: arial;
+	color: #ffffff;
+	font-size: 63px;
+	position: absolute;
+	left: 26.55%;
+	top: 140px;
+	min-width: 47%;
+}
+
+#p3 { /*Zorgt voor grootte en positie van foto*/
+	position: absolute;
+	left: 26.55%;
+	top: 330px;
+	min-width: 47%;
+}
+
+#p4 { /*Zorgt voor tekststukjes met kleur, lettertype en -grootte etc.*/
+	background-color: #2699FB;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 63px;
+	position: absolute;
+	left: 26.55%;
+	top: 570px;
+	min-width: 47%;
+}
+
+#p5 { /*Zorgt voor grootte en positie van foto*/
+	position: absolute;
+	left: 26.55%;
+	top: 670px;
+	min-width: 47%;
+	z-index: -1;
+}
+
+#p6 { /*Zorgt voor tekststukjes met kleur, lettertype en -grootte etc.*/
+	background-color: #2699FB;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 63px;
+	position: absolute;
+	left: 26.55%;
+	top: 970px;
+	min-width: 47%;
+}
+
+#p7 { /*Zorgt voor grootte en positie van foto*/
+	position: absolute;
+	left: 26.55%;
+	top: 1050px;
+	min-width: 47%;
+	z-index: -1;
+}
+
+#p8 { /*Zorgt voor tekststukjes met kleur, lettertype en -grootte etc.*/
+	background-color: #2699FB;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 63px;
+	position: absolute;
+	left: 26.55%;
+	top: 1330px;
+	min-width: 47%;
+}
+
+#p9 { /*Zorgt voor grootte en positie van foto*/
+	position: absolute;
+	left: 26.55%;
+	top: 1520px;
+	min-width: 47%;
+}
+
+#p10 { /*Zorgt voor positie, kleur, grootte etc. van footer*/
+	background-color: #000000;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 25px;
+	position: fixed;
+	left: 26.55%;
+	bottom: -25px;
+	min-width: 47%;
+	text-align: center;
+}
+
+#p11 { /*Zorgt voor stukje ruimte onder de footer*/
+	position: absolute;
+	left: 26.55%;
+	top: 1850px;
+	visibility: hidden;
+}
+
+#p12 { /*Zorgt voor tekststukjes met kleur, lettertype en -grootte etc.*/
+	background-color: #2699FB;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 63px;
+	position: absolute;
+	left: 26.55%;
+	top: 140px;
+	min-width: 47%;
+	text-align: center;
+}
+
+form.PCForm { /*Zorgt voor achtergrondkleur, positie, lettertype  etc. van formulier*/
+	background-color: #f5f5f5;
+	position: absolute;
+	left: 26.55%;
+	top: 275px;
+	min-width: 47%;
+	text-align: left;
+	font-family: arial;
+}
+
+form.PCForm fieldset { /*Zorgt voor lettertype en border van tekstblokjes*/
+	font-family: arial, serif;
+	border-color: #ffffff;
+	border: hidden;
+}
+
+form.PCForm textarea { /*Zorgt voor lettertype van tektsblok*/
+	font-family: arial, serif;
+}
+
+form.PCForm input { /*Zorgt voor grootte van tektsblokjes*/
+	width: 97%;
+	height: 30px;
+}
+
+
+#p13 { /*Zorgt voor kleur en lettertype van tekst in formulier*/
+	font-family: arial, serif;
+	color: #707070;
+}
+
+#p14 { /*Zet meer achtergrond bij formulier*/
+	background-color: #f5f5f5;
+	position: absolute;
+	top:490px;
+	left: 26.55%;
+	min-width: 47%;
+	min-height: 30%;
+	z-index: -4;
+}
+
+#p15 { /*Zorgt voor positie, kleur, grootte etc. van footer*/
+	background-color: #000000;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 25px;
+	position: fixed;
+	left: 26.55%;
+	bottom: -25px;
+	min-width: 47%;
+	text-align: center;
+}
+
+#p16 { /*Zorgt voor tekststukjes met kleur, lettertype en -grootte etc.*/
+	background-color: #2699FB;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 50px;
+	position: absolute;
+	left: 26.55%;
+	top: 153px;
+	min-width: 47%;
+	text-align: center;
+}
+
+table.PCSize { /*Zorgt voor de ruimte in de rand van de table*/
+    padding: 5px;
+}
+
+table.PCSize { /*Zorgt voor positie en kleur van de table*/
+	position: relative;
+	top: 250px;
+	left: 26.2%;
+	background-color: #ffffff;
+}
+
+table.PCSize td.foto-bewerken { /*Zorgt voor grootte van de afbeeldingen*/
+	width: 191px;
+    height: 130px;
+    overflow: hidden;
+}
+
+table.PCSize td.foto-bewerken img{ /*Zorgt voor de grootte van de afbeeldingen*/
+    width: 191px;
+    height: 130px;
+}
+
+#p17 { /*Zorgt voor positie, kleur, grootte etc. van footer*/
+	background-color: #000000;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 25px;
+	position: fixed;
+	left: 26.55%;
+	bottom: -25px;
+	min-width: 47%;
+	text-align: center;
+}
+
+@media screen and (max-width: 700px) { /*PC table verdwijnt*/
+  section.PCTable {
+	display: none;
+  }
+}
+
+@media screen and (min-width: 700px) { /*Tablet table verdwijnt*/
+  section.TabletTable {
+	display: none;
+  }
+}
+
+@media screen and (max-width: 500px) { /*Tablet table verschijnt*/
+  section.TabletTable {
+	display: visible;
+  }
+}
+
+@media screen and (max-width: 500px) { /*Tablet table verdijnt*/
+  section.TabletTable {
+	display: none;
+  }
+}
+
+@media screen and (max-width: 500px) { /*Phone table verschijnt*/
+  section.PhoneTable {
+	display: visible;
+  }
+}
+
+@media screen and (min-width: 500px) { /*Phone table verdwijnt*/
+  section.PhoneTable {
+	display: none;
+  }
+}
+
+table.TabletSize { /*Zorgt voor de ruimte in de rand van de table*/
+    padding: 5px;
+}
+
+table.TabletSize { /*Zorgt voor positie en kleur van de table*/
+	position: absolute;
+	top: 200px;
+	left: 0%;
+	min-width: 100%;
+	background-color: #ffffff;
+}
+
+table.TabletSize td.foto-bewerken { /*Zorgt voor grootte van de afbeeldingen*/
+	width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+table.TabletSize td.foto-bewerken img{ /*Zorgt voor de grootte van de afbeeldingen*/
+    width: 300px;
+    height: 200px;
+}
+
+table.PhoneSize { /*Zorgt voor de ruimte in de rand van de table*/
+    padding: 10px;
+}
+
+table.PhoneSize { /*Zorgt voor positie en kleur van de table*/
+	position: absolute;
+	top: 215px;
+	left: 0%;
+	min-width: 100%;
+	background-color: #ffffff;
+}
+
+table.PhoneSize td.foto-bewerken { /*Zorgt voor grootte van de afbeeldingen*/
+	width: 400px;
+    height: 300px;
+    overflow: hidden;
+	min-width: 100%
+}
+
+table.PhoneSize td.foto-bewerken img{ /*Zorgt voor de grootte van de afbeeldingen*/
+    width: 400px;
+    height: 300px;
+	min-width: 100%;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 700px) {
+  img.PCLogo {
+	display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  img.TabletLogo {
+	display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  img.TabletLogo {
+	display: visible;
+  }
+}
+
+#p18 {
+	position: absolute;
+	left: 0%;
+	top: 0px;
+}
+
+@media screen and (max-width: 700px) {
+  section.PCPlek {
+	display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  section.TabletPlek {
+	display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  section.TabletPlek {
+	display: visible;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section.TabletPlek {
+	display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section.PhonePlek {
+	display: visible;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  section.PhonePlek {
+	display: none;
+  }
+}
+
+#p19 {
+	background-color: #2699FB;
+	font-family: arial;
+	color: #ffffff;
+	font-size: 63px;
+	position: absolute;
+	left: 0%;
+	top: 140px;
+	min-width: 100%;
+}
+
+#p20 {
+	background-color: #2699FB;
+	font-family: arial;
+	color: #ffffff;
+	font-size: 63px;
+	position: absolute;
+	left: 0%;
+	top: 535px;
+	min-width: 100%;
+}
+
+table.TabletGrootte {	
+	position: absolute;
+	left: 0%;
+	top: 345px;
+	min-width: 100%;
+	background-color: #ffffff;
+}
+
+.FotoGrootte { 
+	width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.FotoGrootte img{ 
+    width: 300px;
+    height: 250px;
+}
+
+table.PhoneGrootte {
+	position: absolute;
+	left: 0%;
+	top: 246px;
+	min-width: 100%;
+	background-color: #ffffff;
+}
+
+.FotoPhoneGrootte { 
+	width: 500px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.FotoPhoneGrootte img{ 
+    width: 500px;
+    height: 250px;
+}
+
+#p21 {
+	background-color: #2699FB;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 63px;
+	position: absolute;
+	left: 0%;
+	top: 675px;
+	min-width: 100%;
+}
+
+#p22 {
+	background-color: #000000;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 25px;
+	position: fixed;
+	left: 0%;
+	bottom: -25px;
+	min-width: 100%;
+	text-align: center;
+}
+
+#p23 {
+	background-color: #2699FB;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 35px;
+	position: absolute;
+	left: 0%;
+	top: 130px;
+	min-width: 100%;
+}
+
+#p24 {
+background-color: #000000;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 25px;
+	position: fixed;
+	left: 0%;
+	bottom: -25px;
+	min-width: 100%;
+	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  section.PCContact {
+	display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  section.TabletContact {
+	display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  section.TabletContact {
+	display: visible;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section.TabletContact {
+	display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section.PhoneContact {
+	display: visible;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  section.PhoneContact {
+	display: none;
+  }
+}
+
+form.TabletForm { /*Zorgt voor achtergrondkleur, positie, lettertype  etc. van formulier*/
+	background-color: #f5f5f5;
+	position: absolute;
+	left: 0%;
+	top: 200px;
+	min-width: 100%;
+	text-align: left;
+	font-family: arial;
+}
+
+form.TabletForm fieldset { /*Zorgt voor lettertype en border van tekstblokjes*/
+	font-family: arial, serif;
+	border-color: #ffffff;
+	border: hidden;
+}
+
+form.TabletForm textarea { /*Zorgt voor lettertype van tektsblok*/
+	font-family: arial, serif;
+	width: 100%;
+}
+
+form.TabletForm input { /*Zorgt voor grootte van tektsblokjes*/
+	width: 100%;
+	height: 30px;
+}
+
+#p25 {
+	background-color: #f5f5f5;
+	position: absolute;
+	top:300px;
+	left: 0%;
+	min-width: 100%;
+	min-height: 50%;
+	z-index: -4;
+}
+
+form.PhoneForm { /*Zorgt voor achtergrondkleur, positie, lettertype  etc. van formulier*/
+	background-color: #f5f5f5;
+	position: absolute;
+	left: 0%;
+	top: 160px;
+	min-width: 100%;
+	text-align: left;
+	font-family: arial;
+}
+
+form.PhoneForm fieldset { /*Zorgt voor lettertype en border van tekstblokjes*/
+	font-family: arial, serif;
+	border-color: #ffffff;
+	border: hidden;
+}
+
+form.PhoneForm textarea { /*Zorgt voor lettertype van tektsblok*/
+	font-family: arial, serif;
+	width: 100%;
+}
+
+form.PhoneForm input { /*Zorgt voor grootte van tektsblokjes*/
+	width: 100%;
+	height: 30px;
+}
+
+#p26 { /*Zorgt voor positie, kleur, grootte etc. van footer*/
+	background-color: #000000;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 25px;
+	position: fixed;
+	left: 0%;
+	bottom: -25px;
+	min-width: 100%;
+	text-align: center;
+}
+
+#p27 { /*Zorgt voor tekststukjes met kleur, lettertype en -grootte etc.*/
+	background-color: #2699FB;
+	font-family: arial, serif;
+	color: #ffffff;
+	font-size: 50px;
+	position: absolute;
+	left: 0%;
+	top: 110px;
+	min-width: 100%;
+	text-align: center;
+}
